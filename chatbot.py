@@ -1,5 +1,4 @@
 from langchain_community.llms import ollama
-from pdf_processing import vector
 from langchain.chains import retrieval_qa
 from langchain.prompts import PromptTemplate
 

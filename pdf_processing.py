@@ -61,7 +61,7 @@ def embedd(page_text):
 
 if __name__ == "__main__":
     # Load text from PDF and embed into vector store
-    pdf_path = "F:/python/cse299phychatbot/physics_notes.pdf"
+    pdf_path = os.path.join(current_directory, "physics_notes.pdf")
     page_text = get_text_from_pdf(pdf_path)
     embedd(page_text)
     

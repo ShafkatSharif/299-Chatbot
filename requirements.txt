@@ -1,0 +1,12 @@
+streamlit
+openai
+langchain
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-huggingface
+chromadb
+PyPDF2
+PyMuPDF
+sentence-transformers
+
